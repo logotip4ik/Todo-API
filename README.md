@@ -1,11 +1,11 @@
 # Todo Api
-Todo api woth JWT Tokens
+Todo api with Django and html frontend
 
 ## Installation
 
 * Install dependencies:
     ```bash
-    pip install Flask  Flask-SQLAlchemy PyJWT
+    pip install django django-restframework
     ```
 * Clone repo:
     ```bash
@@ -15,14 +15,13 @@ Todo api woth JWT Tokens
 ## Usage
 Just start the server:
 ```bash
-python server.py
+python manage.py runserver
 ```
-Then log in with username Admin and password nimda and create your user with given token.
-After this you can log in with that user and user its token to create todo's, complete and delete them.
 
-# What i learned
-* How to create models in sqlAlchemy
-* How to use jwt tokens
+
+## Todo
+- [ ] Add jwt token authorization
+- [ ] Add user registration
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
